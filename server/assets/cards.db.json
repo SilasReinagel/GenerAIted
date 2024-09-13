@@ -1,0 +1,412 @@
+{
+  "artCards": [
+    {
+      "id": 1,
+      "imagePath": "/assets/1726199693463.jpg"
+    },
+    {
+      "id": 2,
+      "imagePath": "/assets/1726199693509.jpg"
+    },
+    {
+      "id": 3,
+      "imagePath": "/assets/1726199693548.jpg"
+    },
+    {
+      "id": 4,
+      "imagePath": "/assets/1726199693590.jpg"
+    },
+    {
+      "id": 5,
+      "imagePath": "/assets/1726199693629.jpg"
+    },
+    {
+      "id": 6,
+      "imagePath": "/assets/1726199693669.jpg"
+    },
+    {
+      "id": 7,
+      "imagePath": "/assets/1726199693705.jpg"
+    },
+    {
+      "id": 8,
+      "imagePath": "/assets/1726199693746.jpg"
+    },
+    {
+      "id": 9,
+      "imagePath": "/assets/1726199693788.jpg"
+    },
+    {
+      "id": 10,
+      "imagePath": "/assets/1726199693828.jpg"
+    },
+    {
+      "id": 11,
+      "imagePath": "/assets/1726199693871.jpg"
+    },
+    {
+      "id": 12,
+      "imagePath": "/assets/1726199693911.jpg"
+    },
+    {
+      "id": 13,
+      "imagePath": "/assets/1726199693945.jpg"
+    },
+    {
+      "id": 14,
+      "imagePath": "/assets/1726199693982.jpg"
+    },
+    {
+      "id": 15,
+      "imagePath": "/assets/1726199694016.jpg"
+    },
+    {
+      "id": 16,
+      "imagePath": "/assets/1726199694063.jpg"
+    },
+    {
+      "id": 17,
+      "imagePath": "/assets/1726199694102.jpg"
+    },
+    {
+      "id": 18,
+      "imagePath": "/assets/1726199694149.jpg"
+    },
+    {
+      "id": 19,
+      "imagePath": "/assets/1726199694302.jpg"
+    },
+    {
+      "id": 20,
+      "imagePath": "/assets/1726199694365.jpg"
+    },
+    {
+      "id": 21,
+      "imagePath": "/assets/1726199694410.jpg"
+    },
+    {
+      "id": 22,
+      "imagePath": "/assets/1726199694454.jpg"
+    },
+    {
+      "id": 23,
+      "imagePath": "/assets/1726199694492.jpg"
+    },
+    {
+      "id": 24,
+      "imagePath": "/assets/1726199694535.jpg"
+    },
+    {
+      "id": 25,
+      "imagePath": "/assets/1726199694568.jpg"
+    },
+    {
+      "id": 26,
+      "imagePath": "/assets/1726199694606.jpg"
+    },
+    {
+      "id": 27,
+      "imagePath": "/assets/1726199694648.jpg"
+    },
+    {
+      "id": 28,
+      "imagePath": "/assets/1726199694686.jpg"
+    },
+    {
+      "id": 29,
+      "imagePath": "/assets/1726199694725.jpg"
+    },
+    {
+      "id": 30,
+      "imagePath": "/assets/1726199694770.jpg"
+    },
+    {
+      "id": 31,
+      "imagePath": "/assets/1726199694806.jpg"
+    },
+    {
+      "id": 32,
+      "imagePath": "/assets/1726199694841.jpg"
+    },
+    {
+      "id": 33,
+      "imagePath": "/assets/1726199694877.jpg"
+    },
+    {
+      "id": 34,
+      "imagePath": "/assets/1726199694912.jpg"
+    },
+    {
+      "id": 35,
+      "imagePath": "/assets/1726199694954.jpg"
+    },
+    {
+      "id": 36,
+      "imagePath": "/assets/1726199694989.jpg"
+    },
+    {
+      "id": 37,
+      "imagePath": "/assets/1726199695026.jpg"
+    },
+    {
+      "id": 38,
+      "imagePath": "/assets/1726199695069.jpg"
+    },
+    {
+      "id": 39,
+      "imagePath": "/assets/1726199695108.jpg"
+    },
+    {
+      "id": 40,
+      "imagePath": "/assets/1726199695145.jpg"
+    },
+    {
+      "id": 41,
+      "imagePath": "/assets/1726199695184.jpg"
+    },
+    {
+      "id": 42,
+      "imagePath": "/assets/1726199695224.jpg"
+    },
+    {
+      "id": 43,
+      "imagePath": "/assets/1726199695258.jpg"
+    },
+    {
+      "id": 44,
+      "imagePath": "/assets/1726199695292.jpg"
+    },
+    {
+      "id": 45,
+      "imagePath": "/assets/1726199695326.jpg"
+    },
+    {
+      "id": 46,
+      "imagePath": "/assets/1726199695363.jpg"
+    },
+    {
+      "id": 47,
+      "imagePath": "/assets/1726199695402.jpg"
+    },
+    {
+      "id": 48,
+      "imagePath": "/assets/1726199695438.jpg"
+    },
+    {
+      "id": 49,
+      "imagePath": "/assets/1726199695472.jpg"
+    },
+    {
+      "id": 50,
+      "imagePath": "/assets/1726199695515.jpg"
+    },
+    {
+      "id": 51,
+      "imagePath": "/assets/1726199695552.jpg"
+    },
+    {
+      "id": 52,
+      "imagePath": "/assets/1726199695596.jpg"
+    },
+    {
+      "id": 53,
+      "imagePath": "/assets/1726199695637.jpg"
+    },
+    {
+      "id": 54,
+      "imagePath": "/assets/1726199695676.jpg"
+    },
+    {
+      "id": 55,
+      "imagePath": "/assets/1726199695712.jpg"
+    },
+    {
+      "id": 56,
+      "imagePath": "/assets/1726199695750.jpg"
+    },
+    {
+      "id": 57,
+      "imagePath": "/assets/1726199695787.jpg"
+    },
+    {
+      "id": 58,
+      "imagePath": "/assets/1726199695825.jpg"
+    },
+    {
+      "id": 59,
+      "imagePath": "/assets/1726199695863.jpg"
+    },
+    {
+      "id": 60,
+      "imagePath": "/assets/1726199695899.jpg"
+    },
+    {
+      "id": 61,
+      "imagePath": "/assets/1726199695938.jpg"
+    },
+    {
+      "id": 62,
+      "imagePath": "/assets/1726199695977.jpg"
+    },
+    {
+      "id": 63,
+      "imagePath": "/assets/1726199696018.jpg"
+    },
+    {
+      "id": 64,
+      "imagePath": "/assets/1726199696056.jpg"
+    },
+    {
+      "id": 65,
+      "imagePath": "/assets/1726199696100.jpg"
+    },
+    {
+      "id": 66,
+      "imagePath": "/assets/1726199696146.jpg"
+    },
+    {
+      "id": 67,
+      "imagePath": "/assets/1726199696181.jpg"
+    },
+    {
+      "id": 68,
+      "imagePath": "/assets/1726199696228.jpg"
+    },
+    {
+      "id": 69,
+      "imagePath": "/assets/1726199696269.jpg"
+    },
+    {
+      "id": 70,
+      "imagePath": "/assets/1726199696310.jpg"
+    },
+    {
+      "id": 71,
+      "imagePath": "/assets/1726199696351.jpg"
+    },
+    {
+      "id": 72,
+      "imagePath": "/assets/1726199696388.jpg"
+    },
+    {
+      "id": 73,
+      "imagePath": "/assets/1726199696435.jpg"
+    },
+    {
+      "id": 74,
+      "imagePath": "/assets/1726199696479.jpg"
+    },
+    {
+      "id": 75,
+      "imagePath": "/assets/1726199696517.jpg"
+    },
+    {
+      "id": 76,
+      "imagePath": "/assets/1726199696553.jpg"
+    },
+    {
+      "id": 77,
+      "imagePath": "/assets/1726199696594.jpg"
+    },
+    {
+      "id": 78,
+      "imagePath": "/assets/1726199696631.jpg"
+    },
+    {
+      "id": 79,
+      "imagePath": "/assets/1726199696667.jpg"
+    },
+    {
+      "id": 80,
+      "imagePath": "/assets/1726199696701.jpg"
+    },
+    {
+      "id": 81,
+      "imagePath": "/assets/1726199696737.jpg"
+    },
+    {
+      "id": 82,
+      "imagePath": "/assets/1726199696773.jpg"
+    },
+    {
+      "id": 83,
+      "imagePath": "/assets/1726199696809.jpg"
+    },
+    {
+      "id": 84,
+      "imagePath": "/assets/1726199696844.jpg"
+    },
+    {
+      "id": 85,
+      "imagePath": "/assets/1726199696878.jpg"
+    },
+    {
+      "id": 86,
+      "imagePath": "/assets/1726199696914.jpg"
+    },
+    {
+      "id": 87,
+      "imagePath": "/assets/1726199696953.jpg"
+    },
+    {
+      "id": 88,
+      "imagePath": "/assets/1726199696990.jpg"
+    },
+    {
+      "id": 89,
+      "imagePath": "/assets/1726199697027.jpg"
+    },
+    {
+      "id": 90,
+      "imagePath": "/assets/1726199697062.jpg"
+    },
+    {
+      "id": 91,
+      "imagePath": "/assets/1726199697099.jpg"
+    },
+    {
+      "id": 92,
+      "imagePath": "/assets/1726199697137.jpg"
+    },
+    {
+      "id": 93,
+      "imagePath": "/assets/1726199697173.jpg"
+    },
+    {
+      "id": 94,
+      "imagePath": "/assets/1726199697211.jpg"
+    },
+    {
+      "id": 95,
+      "imagePath": "/assets/1726199697249.jpg"
+    },
+    {
+      "id": 96,
+      "imagePath": "/assets/1726199697288.jpg"
+    },
+    {
+      "id": 97,
+      "imagePath": "/assets/1726199697327.jpg"
+    },
+    {
+      "id": 98,
+      "imagePath": "/assets/1726199697369.jpg"
+    },
+    {
+      "id": 99,
+      "imagePath": "/assets/1726199697410.jpg"
+    },
+    {
+      "id": 100,
+      "imagePath": "/assets/1726199697451.jpg"
+    },
+    {
+      "id": 101,
+      "imagePath": "/assets/1726199697487.jpg"
+    },
+    {
+      "id": 102,
+      "imagePath": "/assets/1726199697528.jpg"
+    }
+  ]
+}

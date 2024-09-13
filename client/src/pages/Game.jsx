@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { socket } from '../socket';
+import ArtCardBrowser from '../components/ArtCardBrowser';
 
 function Game() {
   const [connected, setConnected] = useState(false);
@@ -23,10 +24,10 @@ function Game() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <h1 className="text-2xl font-bold mb-4">Game Room</h1>
-      <p>{connected ? 'Connected to server' : 'Disconnected from server'}</p>
-      {/* ATTN: Implement game UI and logic */}
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+      <h1 className="text-4xl font-bold mb-4">Game Room</h1>
+      <p className="mb-8">{connected ? 'Connected to server' : 'Disconnected from server'}</p>
+      <ArtCardBrowser />
     </div>
   );
 }

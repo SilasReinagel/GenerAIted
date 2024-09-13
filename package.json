@@ -2,6 +2,7 @@
   "name": "generaited",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\" \"npm run open-browser\"",
     "server": "cd server && npm run dev",
@@ -9,7 +10,8 @@
     "install-all": "npm install && npm run install-client && npm run install-server",
     "install-client": "cd client && npm install",
     "install-server": "cd server && npm install",
-    "open-browser": "wait-on http://localhost:9821 && open-cli http://localhost:9821"
+    "open-browser": "wait-on http://localhost:9821 && open-cli http://localhost:9821",
+    "update-cards-db": "node cli/updateCardsDb.js"
   },
   "devDependencies": {
     "concurrently": "^8.0.1",
