@@ -1,0 +1,19 @@
+{
+  "name": "generaited-server",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^10.13.1",
+    "firebase-admin": "^11.7.0",
+    "socket.io": "^4.6.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
