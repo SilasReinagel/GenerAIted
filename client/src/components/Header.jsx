@@ -1,6 +1,6 @@
 // @ts-check
 import React, { useState, useCallback } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -23,7 +23,7 @@ function Header() {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 flex justify-between items-center w-full bg-gray-800 bg-opacity-75 p-4">
+    <div className="fixed top-0 left-0 right-0 hidden md:flex justify-between items-center w-full bg-gray-800 bg-opacity-0 p-4">
       <h1 
         className="text-4xl font-bold cursor-pointer" 
         onClick={handleTitleClick}
