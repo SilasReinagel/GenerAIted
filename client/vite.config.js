@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -7,7 +8,9 @@ export default defineConfig({
   server: {
     port: 9821
   },
-  define: {
-    'import.meta.env.VITE_SERVER_URL': JSON.stringify(process.env.VITE_SERVER_URL || 'http://localhost:7613'),
-  }
+  resolve: {
+    alias: {
+      '@assets': path.resolve(__dirname, '../assets'),
+    },
+  },
 })

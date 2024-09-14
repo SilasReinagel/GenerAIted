@@ -3,46 +3,30 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ArtCard from '../components/ArtCard';
 import { motion } from 'framer-motion';
+import cardsData from '../../../assets/cards.db.json';
+import promptsData from '../../../assets/prompts.json';
 
 const HAND_SIZE = 5;
 
 function Game() {
   const [hand, setHand] = useState([]);
   const [deck, setDeck] = useState([]);
-  const [prompts, setPrompts] = useState([]);
   const [currentPrompt, setCurrentPrompt] = useState('');
   const [playedCard, setPlayedCard] = useState(null);
 
   useEffect(() => {
-    fetchCards();
-    fetchPrompts();
+    initializeGame();
   }, []);
 
-  const fetchCards = async () => {
-    try {
-      const response = await fetch(`${import.meta.env.VITE_SERVER_URL}/api/artcards`);
-      const data = await response.json();
-      const shuffledCards = [...data.artCards].sort(() => Math.random() - 0.5);
-      setHand(shuffledCards.slice(0, HAND_SIZE));
-      setDeck(shuffledCards.slice(HAND_SIZE));
-    } catch (error) {
-      console.error('Error fetching cards:', error);
-    }
+  const initializeGame = () => {
+    const shuffledCards = [...cardsData.artCards].sort(() => Math.random() - 0.5);
+    setHand(shuffledCards.slice(0, HAND_SIZE));
+    setDeck(shuffledCards.slice(HAND_SIZE));
+    setCurrentPrompt(getRandomPrompt());
   };
 
-  const fetchPrompts = async () => {
-    try {
-      const response = await fetch(`${import.meta.env.VITE_SERVER_URL}/api/prompts`);
-      const data = await response.json();
-      setPrompts(data.prompts);
-      setCurrentPrompt(getRandomPrompt(data.prompts));
-    } catch (error) {
-      console.error('Error fetching prompts:', error);
-    }
-  };
-
-  const getRandomPrompt = (promptList) => {
-    return promptList[Math.floor(Math.random() * promptList.length)];
+  const getRandomPrompt = () => {
+    return promptsData.prompts[Math.floor(Math.random() * promptsData.prompts.length)];
   };
 
   const playCard = (card) => {
@@ -55,7 +39,7 @@ function Game() {
         setHand(prevHand => [...prevHand, newCard]);
         setDeck(prevDeck => prevDeck.slice(1));
       }
-      setCurrentPrompt(getRandomPrompt(prompts));
+      setCurrentPrompt(getRandomPrompt());
       setPlayedCard(null);
     }, 2000);
   };

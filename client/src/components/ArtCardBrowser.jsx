@@ -24,8 +24,7 @@ function ArtCardBrowser() {
       })
       .then(jsonData => {
         console.log('Parsed data:', jsonData);
-        const shuffledCards = [...jsonData.artCards].sort(() => Math.random() - 0.5);
-        setArtCards(shuffledCards);
+        setArtCards(jsonData.artCards);
       })
       .catch(error => {
         console.error('Error fetching art cards:', error);

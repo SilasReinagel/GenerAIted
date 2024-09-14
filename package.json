@@ -4,17 +4,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\" \"npm run open-browser\"",
+    "start": "npm run copy-assets && concurrently \"npm run server\" \"npm run client\" \"npm run open-browser\"",
     "server": "cd server && npm run dev",
     "client": "cd client && npm run dev",
     "install-all": "npm install && npm run install-client && npm run install-server",
     "install-client": "cd client && npm install",
     "install-server": "cd server && npm install",
     "open-browser": "wait-on http://localhost:9821 && open-cli http://localhost:9821",
-    "update-cards-db": "node cli/updateCardsDb.js"
+    "update-cards-db": "node cli/updateCardsDb.js",
+    "copy-assets": "node scripts/copyAssets.js"
   },
   "devDependencies": {
     "concurrently": "^8.0.1",
+    "fs-extra": "^11.2.0",
     "open-cli": "^7.2.0",
     "wait-on": "^7.0.1"
   }

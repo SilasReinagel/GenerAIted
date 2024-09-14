@@ -47,8 +47,8 @@ async function loadData() {
 
 loadData();
 
-// Serve static files from the assets directory
-app.use('/assets', express.static(join(__dirname, '..', 'assets')));
+// Serve static files from the shared assets directory
+app.use('/assets', express.static(join(__dirname, '..', '..', 'assets')));
 
 // Basic route
 app.get('/', (req, res) => {
@@ -194,5 +194,5 @@ const PORT = process.env.PORT || 7613;
 httpServer.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   console.log(`CORS origin: ${process.env.CLIENT_URL || 'http://localhost:9821'}`);
-  console.log(`Serving static files from: ${join(__dirname, '..', 'assets')}`);
+  console.log(`Serving static files from: ${join(__dirname, '..', '..', 'assets')}`);
 });

@@ -99,3 +99,7 @@
 **/.yarn/build-state.yml
 **/.yarn/install-state.gz
 **/.pnp.*
+
+# Copied assets
+client/assets
+server/assets
