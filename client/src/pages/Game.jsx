@@ -5,6 +5,8 @@ import ArtCard from '../components/ArtCard';
 import { motion } from 'framer-motion';
 import cardsData from '../../../assets/cards.db.json';
 import promptsData from '../../../assets/prompts.json';
+import bgImage from '../assets/bg.jpg';
+import Header from '../components/Header';
 
 const HAND_SIZE = 5;
 
@@ -45,13 +47,13 @@ function Game() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-between min-h-screen bg-gray-800 text-white p-4">
-      <div className="flex flex-col items-center w-full">
-        <h1 className="text-4xl font-bold mb-8">GenerAIted Playtest</h1>
-        
+    <div className="flex flex-col items-center justify-between min-h-screen bg-cover bg-center text-white p-4" style={{ backgroundImage: `url(${bgImage})`, backgroundColor: 'rgba(0, 0, 0, 0.7)', backgroundBlendMode: 'darken' }}>
+      <Header />
+
+      <div className="flex flex-col items-center w-full mt-20">
         <div className="mb-8 text-center">
           <h2 className="text-2xl font-semibold mb-2">Current Prompt:</h2>
-          <p className="text-xl bg-gray-800 p-4 rounded-lg">{currentPrompt}</p>
+          <p className="text-xl bg-gray-800 bg-opacity-75 p-4 rounded-lg">{currentPrompt}</p>
         </div>
 
         {playedCard && (
@@ -60,10 +62,6 @@ function Game() {
             <ArtCard {...playedCard} />
           </div>
         )}
-
-        <Link to="/" className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300">
-          Return to Home
-        </Link>
       </div>
 
       <div className="fixed bottom-[-240px] left-0 right-0 flex justify-center items-end pb-4 overflow-hidden h-[900px]">
@@ -80,11 +78,13 @@ function Game() {
                 initial={{
                   y: translateY,
                   rotate: rotate,
-                  zIndex: 0
+                  zIndex: 0,
+                  filter: 'drop-shadow(0 40px 40px rgba(0, 0, 0, 0.6))'
                 }}
                 whileHover={{
                   y: -260,
                   zIndex: 100,
+                  filter: 'drop-shadow(0 40px 40px rgba(0, 0, 0, 0.8))',
                   transition: { duration: 0.2, ease: "easeIn" }
                 }}
                 onClick={() => playCard(card)}

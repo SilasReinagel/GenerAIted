@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Game from './pages/Game';
 import ArtBrowserPage from './pages/ArtBrowserPage';
-import FullscreenButton from './components/FullscreenButton';
 
 function App() {
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -11,7 +10,6 @@ function App() {
   return (
     <Router>
       <div className={`min-h-screen bg-gray-800 text-white relative ${isFullscreen ? 'fullscreen' : ''}`}>
-        <FullscreenButton isFullscreen={isFullscreen} setIsFullscreen={setIsFullscreen} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/game" element={<Game />} />
