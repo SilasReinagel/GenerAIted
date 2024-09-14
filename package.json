@@ -12,7 +12,8 @@
     "install-server": "cd server && npm install",
     "open-browser": "wait-on http://localhost:9821 && open-cli http://localhost:9821",
     "update-cards-db": "node cli/updateCardsDb.js",
-    "copy-assets": "node scripts/copyAssets.js"
+    "copy-assets": "node scripts/copyAssets.js",
+    "build-client": "npm run copy-assets && cd client && npm run build"
   },
   "devDependencies": {
     "concurrently": "^8.0.1",
