@@ -8,7 +8,7 @@ import promptsData from '../../../assets/prompts.json';
 import bgImage from '../assets/bg.jpg';
 import Header from '../components/Header';
 
-const HAND_SIZE = 5;
+const HAND_SIZE = 7;
 
 /**
  * @typedef {Object} Card
@@ -100,7 +100,7 @@ function Game() {
       </div>
 
       <div className="fixed bottom-[-300px] left-0 right-0 flex justify-center items-end pb-4 overflow-hidden h-[900px]">
-        <div className="flex space-x-[-100px]">
+        <div className="flex space-x-[-200px]">
           {hand.map((card, index) => {
             const isCenter = index === Math.floor(HAND_SIZE / 2);
             const isLeft = index < Math.floor(HAND_SIZE / 2);

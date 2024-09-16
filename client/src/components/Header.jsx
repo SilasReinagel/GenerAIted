@@ -28,7 +28,12 @@ function Header() {
         className="text-4xl font-bold cursor-pointer" 
         onClick={handleTitleClick}
       >
-        GenerAIted Playtest
+        <img
+          src="/apple-touch-icon.png"
+          alt="GenerAIted Logo"
+          className="w-8 h-8 mr-2 inline-block"
+        />
+        GenerAIted
       </h1>
       <div className="flex items-center space-x-4">
         <button

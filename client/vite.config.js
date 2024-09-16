@@ -13,4 +13,6 @@ export default defineConfig({
       '@assets': path.resolve(__dirname, '../assets'),
     },
   },
+  publicDir: 'public',
+  base: '/',
 })
