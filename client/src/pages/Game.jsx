@@ -1,5 +1,5 @@
 // @ts-check
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import ArtCard from '../components/ArtCard';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -10,16 +10,34 @@ import Header from '../components/Header';
 
 const HAND_SIZE = 5;
 
+/**
+ * @typedef {Object} Card
+ * @property {number} id
+ * @property {string} imagePath
+ */
+
 function Game() {
+  /** @type {[Card[], React.Dispatch<React.SetStateAction<Card[]>>]} */
   const [hand, setHand] = useState([]);
+  /** @type {[Card[], React.Dispatch<React.SetStateAction<Card[]>>]} */
   const [deck, setDeck] = useState([]);
   const [currentPrompt, setCurrentPrompt] = useState('');
+  /** @type {[Card | null, React.Dispatch<React.SetStateAction<Card | null>>]} */
   const [playedCard, setPlayedCard] = useState(null);
   const [isDrawing, setIsDrawing] = useState(false);
+  const topCardImageRef = useRef(null);
 
   useEffect(() => {
     initializeGame();
   }, []);
+
+  useEffect(() => {
+    if (deck.length > 0) {
+      const topCard = deck[0];
+      topCardImageRef.current = new Image();
+      topCardImageRef.current.src = topCard.imagePath;
+    }
+  }, [deck]);
 
   const initializeGame = () => {
     const shuffledCards = [...cardsData.artCards].sort(() => Math.random() - 0.5);
@@ -123,7 +141,7 @@ function Game() {
               animate={{ x: 0, y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <div className="w-[200px] h-[280px] bg-gray-800 rounded-lg"></div>
+              <ArtCard {...deck[0]} />
             </motion.div>
           )}
         </div>
