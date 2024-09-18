@@ -7,6 +7,7 @@ import cardsData from '../../../assets/cards.db.json';
 import promptsData from '../../../assets/prompts.json';
 import bgImage from '../assets/bg.jpg';
 import Header from '../components/Header';
+import { Random } from 'random-js';
 
 const HAND_SIZE = 7;
 
@@ -26,6 +27,7 @@ function Game() {
   const [playedCard, setPlayedCard] = useState(null);
   const [isDrawing, setIsDrawing] = useState(false);
   const topCardImageRef = useRef(null);
+  const random = new Random();
 
   useEffect(() => {
     initializeGame();
@@ -40,14 +42,14 @@ function Game() {
   }, [deck]);
 
   const initializeGame = () => {
-    const shuffledCards = [...cardsData.artCards].sort(() => Math.random() - 0.5);
+    const shuffledCards = random.shuffle([...cardsData.artCards]);
     setHand(shuffledCards.slice(0, HAND_SIZE));
     setDeck(shuffledCards.slice(HAND_SIZE));
     setCurrentPrompt(getRandomPrompt());
   };
 
   const getRandomPrompt = () => {
-    return promptsData.prompts[Math.floor(Math.random() * promptsData.prompts.length)];
+    return promptsData.prompts[random.integer(0, promptsData.prompts.length - 1)];
   };
 
   const playCard = (card) => {
