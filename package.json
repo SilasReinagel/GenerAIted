@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "npm run copy-assets && concurrently \"npm run server\" \"npm run client\" \"npm run open-browser\"",
+    "dev": "npm run copy-assets && concurrently \"npm run server\" \"npm run client\" \"npm run open-browser\"",
     "server": "cd server && npm run dev",
     "client": "cd client && npm run dev",
     "install-all": "npm install && npm run install-client && npm run install-server",

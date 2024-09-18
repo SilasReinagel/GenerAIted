@@ -70,7 +70,7 @@ function Game() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-between min-h-screen bg-cover bg-center text-white p-4" style={{ backgroundImage: `url(${bgImage})`, backgroundColor: 'rgba(0, 0, 0, 0.7)', backgroundBlendMode: 'darken' }}>
+    <div className="flex flex-col items-center justify-between min-h-screen bg-cover bg-center text-white p-4" style={{ backgroundImage: `url(${bgImage})`, backgroundColor: 'rgba(0, 128, 255, 0.3)', backgroundBlendMode: 'lighten' }}>
       <Header />
 
       <div className="flex w-full mt-8">
