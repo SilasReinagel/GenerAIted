@@ -29,6 +29,9 @@ function Home() {
             <Link to="/game" className="block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 text-center w-64">
               Start Quick Playtest
             </Link>
+            <Link to="/pixi" className="block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 text-center w-64">
+              Start Pixi Playtest
+            </Link>
             <Link to="/art-browser" className="block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 text-center w-64">
               Art Card Browser
             </Link>

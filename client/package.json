@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "framer-motion": "^11.5.4",
+    "pixi.js": "^8.4.1",
     "posthog-js": "^1.161.6",
     "random-js": "^2.1.0",
     "react": "^18.2.0",
