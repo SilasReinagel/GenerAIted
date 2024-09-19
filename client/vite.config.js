@@ -15,4 +15,8 @@ export default defineConfig({
   },
   publicDir: 'public',
   base: '/',
+  define: {
+    'process.env.VITE_POSTHOG_API_KEY': JSON.stringify(process.env.GENERAITED_POSTHOG_API_KEY),
+    'process.env.VITE_ENV_NAME': JSON.stringify(process.env.GENERAITED_ENV_NAME)
+  }
 })

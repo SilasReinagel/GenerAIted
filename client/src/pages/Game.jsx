@@ -1,6 +1,5 @@
 // @ts-check
 import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
 import ArtCard from '../components/ArtCard';
 import { motion, AnimatePresence } from 'framer-motion';
 import cardsData from '../../../assets/cards.db.json';
@@ -8,6 +7,7 @@ import promptsData from '../../../assets/prompts.json';
 import bgImage from '../assets/bg.jpg';
 import Header from '../components/Header';
 import { Random } from 'random-js';
+import { trackEvent } from '../analytics';
 
 const HAND_SIZE = 7;
 
@@ -17,17 +17,26 @@ const HAND_SIZE = 7;
  * @property {string} imagePath
  */
 
+/**
+ * @typedef {Object} Prompt
+ * @property {number} id
+ * @property {string} text
+ */
+
 function Game() {
   /** @type {[Card[], React.Dispatch<React.SetStateAction<Card[]>>]} */
   const [hand, setHand] = useState([]);
   /** @type {[Card[], React.Dispatch<React.SetStateAction<Card[]>>]} */
   const [deck, setDeck] = useState([]);
-  const [currentPrompt, setCurrentPrompt] = useState('');
+  /** @type {[Prompt, React.Dispatch<React.SetStateAction<Prompt>>]} */
+  const [currentPrompt, setCurrentPrompt] = useState({ id: 0, text: '' });
   /** @type {[Card | null, React.Dispatch<React.SetStateAction<Card | null>>]} */
   const [playedCard, setPlayedCard] = useState(null);
   const [isDrawing, setIsDrawing] = useState(false);
   const topCardImageRef = useRef(null);
   const random = new Random();
+  const [usedPrompts, setUsedPrompts] = useState(new Set());
+  const [availablePrompts, setAvailablePrompts] = useState([...promptsData.prompts]);
 
   useEffect(() => {
     initializeGame();
@@ -45,16 +54,39 @@ function Game() {
     const shuffledCards = random.shuffle([...cardsData.artCards]);
     setHand(shuffledCards.slice(0, HAND_SIZE));
     setDeck(shuffledCards.slice(HAND_SIZE));
-    setCurrentPrompt(getRandomPrompt());
+    setCurrentPrompt(getNextRandomPrompt());
   };
 
-  const getRandomPrompt = () => {
-    return promptsData.prompts[random.integer(0, promptsData.prompts.length - 1)];
+  const getNextRandomPrompt = () => {
+    if (availablePrompts.length === 0) {
+      // Reset available prompts when all have been used
+      setAvailablePrompts([...promptsData.prompts]);
+      setUsedPrompts(new Set());
+    }
+
+    const index = random.integer(0, availablePrompts.length - 1);
+    const selectedPrompt = availablePrompts[index];
+
+    // Remove the selected prompt from available prompts
+    setAvailablePrompts(prevPrompts => prevPrompts.filter((_, i) => i !== index));
+    
+    // Add the selected prompt to used prompts
+    setUsedPrompts(prevUsed => new Set(prevUsed).add(selectedPrompt.id));
+
+    return selectedPrompt;
   };
 
   const playCard = (card) => {
     setPlayedCard(card);
-    setHand(hand.filter(c => c.id !== card.id));
+    const updatedHand = hand.filter(c => c.id !== card.id);
+    setHand(updatedHand);
+    
+    // Track the selected card event
+    trackEvent('selectedCard', {
+      cardId: card.id,
+      promptId: currentPrompt.id,
+      handCardIds: updatedHand.map(c => c.id)
+    });
     
     setTimeout(() => {
       if (deck.length > 0) {
@@ -66,7 +98,8 @@ function Game() {
           setIsDrawing(false);
         }, 500);
       }
-      setCurrentPrompt(getRandomPrompt());
+      const newPrompt = getNextRandomPrompt();
+      setCurrentPrompt(newPrompt);
       setPlayedCard(null);
     }, 2000);
   };
@@ -79,7 +112,7 @@ function Game() {
         <div className="w-full p-4 flex flex-col items-center justify-center">
           <div className="mb-8 max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-semibold mb-2">Current Prompt:</h2>
-            <p className="text-xl bg-gray-800 bg-opacity-75 p-4 rounded-lg">{currentPrompt}</p>
+            <p className="text-xl bg-gray-800 bg-opacity-75 p-4 rounded-lg">{currentPrompt.text}</p>
           </div>
 
           <AnimatePresence>
