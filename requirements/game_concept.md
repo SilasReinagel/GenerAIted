@@ -4,14 +4,20 @@
 
 GenerAIted is the hilarious party game where artificial intelligence meets human creativity! It's as if "Apples to Apples" had a wild night out with "What Do You Meme?" and woke up in a world ruled by ChatGPT and Midjourney.
 
+## Setup
+
+1. Shuffle the deck of prompt cards and place it face-down in the center of the play area.
+2. Shuffle the deck of image cards and deal 7 cards to each player. This forms their starting hand.
+3. Choose the first "Overly Optimistic Human User" by having all players describe their most recent AI-related mishap. The player with the funniest or most relatable story goes first.
+
 ## How to Play
 
 1. Players take turns being the "Overly Optimistic Human User" while others are "Cutting Edge AI Image Models".
 2. The current Human User draws a prompt card and describes the type of image they want generated.
 3. The AI Image Model players listen carefully and try to interpret what the Human User really wants.
-4. Each AI Image Model player then describes an image they would generate based on the Human User's request.
-5. The Human User selects their favorite "generated image" description.
-6. Points are awarded to the AI Image Model player whose description was chosen.
+4. Each AI Image Model player then select an image from hand and places it facedown in front of the Human User.
+5. The Human User selects their favorite generated image.
+6. Points are awarded to the AI Image Model player whose image was chosen.
 7. The role of Human User rotates to the next player for the following round.
 
 ## Why It's Awesome
