@@ -36,11 +36,11 @@ function Header() {
           onClick={handleTitleClick}
         >
           <img
-            src="/apple-touch-icon.png"
+            src="/generaited-logo-small.png"
             alt="GenerAIted Logo"
-            className="w-8 h-8 mr-2 inline-block"
+            className="h-[64px] mr-2 inline-block"
+            style={{ width: 'auto' }}
           />
-          GenerAIted
         </h1>
         <div className="flex items-center space-x-4">
           <button
