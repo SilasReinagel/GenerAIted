@@ -2,675 +2,843 @@
   "artCards": [
     {
       "id": 1,
-      "imagePath": "/assets/images/1726199693463.jpg"
+      "imagePath": "/assets/images/1726199693463.jpg",
+      "isOrdinary": false
     },
     {
       "id": 2,
-      "imagePath": "/assets/images/1726199693509.jpg"
+      "imagePath": "/assets/images/1726199693509.jpg",
+      "isOrdinary": false
     },
     {
       "id": 3,
-      "imagePath": "/assets/images/1726199693548.jpg"
+      "imagePath": "/assets/images/1726199693548.jpg",
+      "isOrdinary": false
     },
     {
       "id": 4,
-      "imagePath": "/assets/images/1726199693590.jpg"
+      "imagePath": "/assets/images/1726199693590.jpg",
+      "isOrdinary": false
     },
     {
       "id": 5,
-      "imagePath": "/assets/images/1726199693629.jpg"
+      "imagePath": "/assets/images/1726199693629.jpg",
+      "isOrdinary": false
     },
     {
       "id": 6,
-      "imagePath": "/assets/images/1726199693669.jpg"
+      "imagePath": "/assets/images/1726199693669.jpg",
+      "isOrdinary": false
     },
     {
       "id": 7,
-      "imagePath": "/assets/images/1726199693705.jpg"
+      "imagePath": "/assets/images/1726199693705.jpg",
+      "isOrdinary": false
     },
     {
       "id": 8,
-      "imagePath": "/assets/images/1726199693746.jpg"
+      "imagePath": "/assets/images/1726199693746.jpg",
+      "isOrdinary": true
     },
     {
       "id": 9,
-      "imagePath": "/assets/images/1726199693788.jpg"
+      "imagePath": "/assets/images/1726199693788.jpg",
+      "isOrdinary": false
     },
     {
       "id": 10,
-      "imagePath": "/assets/images/1726199693828.jpg"
+      "imagePath": "/assets/images/1726199693828.jpg",
+      "isOrdinary": true
     },
     {
       "id": 11,
-      "imagePath": "/assets/images/1726199693871.jpg"
+      "imagePath": "/assets/images/1726199693871.jpg",
+      "isOrdinary": false
     },
     {
       "id": 12,
-      "imagePath": "/assets/images/1726199693911.jpg"
+      "imagePath": "/assets/images/1726199693911.jpg",
+      "isOrdinary": false
     },
     {
       "id": 13,
-      "imagePath": "/assets/images/1726199693945.jpg"
+      "imagePath": "/assets/images/1726199693945.jpg",
+      "isOrdinary": true
     },
     {
       "id": 14,
-      "imagePath": "/assets/images/1726199693982.jpg"
+      "imagePath": "/assets/images/1726199693982.jpg",
+      "isOrdinary": true
     },
     {
       "id": 15,
-      "imagePath": "/assets/images/1726199694016.jpg"
+      "imagePath": "/assets/images/1726199694016.jpg",
+      "isOrdinary": false
     },
     {
       "id": 16,
-      "imagePath": "/assets/images/1726199694063.jpg"
+      "imagePath": "/assets/images/1726199694063.jpg",
+      "isOrdinary": true
     },
     {
       "id": 17,
-      "imagePath": "/assets/images/1726199694102.jpg"
+      "imagePath": "/assets/images/1726199694102.jpg",
+      "isOrdinary": false
     },
     {
       "id": 18,
-      "imagePath": "/assets/images/1726199694149.jpg"
+      "imagePath": "/assets/images/1726199694149.jpg",
+      "isOrdinary": true
     },
     {
       "id": 19,
-      "imagePath": "/assets/images/1726199694302.jpg"
+      "imagePath": "/assets/images/1726199694302.jpg",
+      "isOrdinary": false
     },
     {
       "id": 20,
-      "imagePath": "/assets/images/1726199694365.jpg"
+      "imagePath": "/assets/images/1726199694365.jpg",
+      "isOrdinary": false
     },
     {
       "id": 21,
-      "imagePath": "/assets/images/1726199694410.jpg"
+      "imagePath": "/assets/images/1726199694410.jpg",
+      "isOrdinary": false
     },
     {
       "id": 22,
-      "imagePath": "/assets/images/1726199694454.jpg"
+      "imagePath": "/assets/images/1726199694454.jpg",
+      "isOrdinary": false
     },
     {
       "id": 23,
-      "imagePath": "/assets/images/1726199694492.jpg"
+      "imagePath": "/assets/images/1726199694492.jpg",
+      "isOrdinary": true
     },
     {
       "id": 24,
-      "imagePath": "/assets/images/1726199694535.jpg"
+      "imagePath": "/assets/images/1726199694535.jpg",
+      "isOrdinary": false
     },
     {
       "id": 25,
-      "imagePath": "/assets/images/1726199694568.jpg"
+      "imagePath": "/assets/images/1726199694568.jpg",
+      "isOrdinary": false
     },
     {
       "id": 26,
-      "imagePath": "/assets/images/1726199694606.jpg"
+      "imagePath": "/assets/images/1726199694606.jpg",
+      "isOrdinary": true
     },
     {
       "id": 27,
-      "imagePath": "/assets/images/1726199694648.jpg"
+      "imagePath": "/assets/images/1726199694648.jpg",
+      "isOrdinary": false
     },
     {
       "id": 28,
-      "imagePath": "/assets/images/1726199694686.jpg"
+      "imagePath": "/assets/images/1726199694686.jpg",
+      "isOrdinary": true
     },
     {
       "id": 29,
-      "imagePath": "/assets/images/1726199694725.jpg"
+      "imagePath": "/assets/images/1726199694725.jpg",
+      "isOrdinary": false
     },
     {
       "id": 30,
-      "imagePath": "/assets/images/1726199694770.jpg"
+      "imagePath": "/assets/images/1726199694770.jpg",
+      "isOrdinary": false
     },
     {
       "id": 31,
-      "imagePath": "/assets/images/1726199694806.jpg"
+      "imagePath": "/assets/images/1726199694806.jpg",
+      "isOrdinary": true
     },
     {
       "id": 32,
-      "imagePath": "/assets/images/1726199694841.jpg"
+      "imagePath": "/assets/images/1726199694841.jpg",
+      "isOrdinary": false
     },
     {
       "id": 33,
-      "imagePath": "/assets/images/1726199694877.jpg"
+      "imagePath": "/assets/images/1726199694877.jpg",
+      "isOrdinary": false
     },
     {
       "id": 34,
-      "imagePath": "/assets/images/1726199694912.jpg"
+      "imagePath": "/assets/images/1726199694912.jpg",
+      "isOrdinary": false
     },
     {
       "id": 35,
-      "imagePath": "/assets/images/1726199694954.jpg"
+      "imagePath": "/assets/images/1726199694954.jpg",
+      "isOrdinary": false
     },
     {
       "id": 36,
-      "imagePath": "/assets/images/1726199694989.jpg"
+      "imagePath": "/assets/images/1726199694989.jpg",
+      "isOrdinary": true
     },
     {
       "id": 37,
-      "imagePath": "/assets/images/1726199695026.jpg"
+      "imagePath": "/assets/images/1726199695026.jpg",
+      "isOrdinary": false
     },
     {
       "id": 38,
-      "imagePath": "/assets/images/1726199695069.jpg"
+      "imagePath": "/assets/images/1726199695069.jpg",
+      "isOrdinary": true
     },
     {
       "id": 39,
-      "imagePath": "/assets/images/1726199695108.jpg"
+      "imagePath": "/assets/images/1726199695108.jpg",
+      "isOrdinary": false
     },
     {
       "id": 40,
-      "imagePath": "/assets/images/1726199695145.jpg"
+      "imagePath": "/assets/images/1726199695145.jpg",
+      "isOrdinary": false
     },
     {
       "id": 41,
-      "imagePath": "/assets/images/1726199695184.jpg"
+      "imagePath": "/assets/images/1726199695184.jpg",
+      "isOrdinary": false
     },
     {
       "id": 42,
-      "imagePath": "/assets/images/1726199695224.jpg"
+      "imagePath": "/assets/images/1726199695224.jpg",
+      "isOrdinary": true
     },
     {
       "id": 43,
-      "imagePath": "/assets/images/1726199695258.jpg"
+      "imagePath": "/assets/images/1726199695258.jpg",
+      "isOrdinary": false
     },
     {
       "id": 44,
-      "imagePath": "/assets/images/1726199695292.jpg"
+      "imagePath": "/assets/images/1726199695292.jpg",
+      "isOrdinary": false
     },
     {
       "id": 45,
-      "imagePath": "/assets/images/1726199695326.jpg"
+      "imagePath": "/assets/images/1726199695326.jpg",
+      "isOrdinary": false
     },
     {
       "id": 46,
-      "imagePath": "/assets/images/1726199695363.jpg"
+      "imagePath": "/assets/images/1726199695363.jpg",
+      "isOrdinary": false
     },
     {
       "id": 47,
-      "imagePath": "/assets/images/1726199695402.jpg"
+      "imagePath": "/assets/images/1726199695402.jpg",
+      "isOrdinary": false
     },
     {
       "id": 48,
-      "imagePath": "/assets/images/1726199695438.jpg"
+      "imagePath": "/assets/images/1726199695438.jpg",
+      "isOrdinary": false
     },
     {
       "id": 49,
-      "imagePath": "/assets/images/1726199695472.jpg"
+      "imagePath": "/assets/images/1726199695472.jpg",
+      "isOrdinary": false
     },
     {
       "id": 50,
-      "imagePath": "/assets/images/1726199695515.jpg"
+      "imagePath": "/assets/images/1726199695515.jpg",
+      "isOrdinary": false
     },
     {
       "id": 51,
-      "imagePath": "/assets/images/1726199695552.jpg"
+      "imagePath": "/assets/images/1726199695552.jpg",
+      "isOrdinary": false
     },
     {
       "id": 52,
-      "imagePath": "/assets/images/1726199695596.jpg"
+      "imagePath": "/assets/images/1726199695596.jpg",
+      "isOrdinary": false
     },
     {
       "id": 53,
-      "imagePath": "/assets/images/1726199695637.jpg"
+      "imagePath": "/assets/images/1726199695637.jpg",
+      "isOrdinary": true
     },
     {
       "id": 54,
-      "imagePath": "/assets/images/1726199695676.jpg"
+      "imagePath": "/assets/images/1726199695676.jpg",
+      "isOrdinary": true
     },
     {
       "id": 55,
-      "imagePath": "/assets/images/1726199695712.jpg"
+      "imagePath": "/assets/images/1726199695712.jpg",
+      "isOrdinary": false
     },
     {
       "id": 56,
-      "imagePath": "/assets/images/1726199695750.jpg"
+      "imagePath": "/assets/images/1726199695750.jpg",
+      "isOrdinary": true
     },
     {
       "id": 57,
-      "imagePath": "/assets/images/1726199695787.jpg"
+      "imagePath": "/assets/images/1726199695787.jpg",
+      "isOrdinary": false
     },
     {
       "id": 58,
-      "imagePath": "/assets/images/1726199695825.jpg"
+      "imagePath": "/assets/images/1726199695825.jpg",
+      "isOrdinary": true
     },
     {
       "id": 59,
-      "imagePath": "/assets/images/1726199695863.jpg"
+      "imagePath": "/assets/images/1726199695863.jpg",
+      "isOrdinary": false
     },
     {
       "id": 60,
-      "imagePath": "/assets/images/1726199695899.jpg"
+      "imagePath": "/assets/images/1726199695899.jpg",
+      "isOrdinary": false
     },
     {
       "id": 61,
-      "imagePath": "/assets/images/1726199695938.jpg"
+      "imagePath": "/assets/images/1726199695938.jpg",
+      "isOrdinary": false
     },
     {
       "id": 62,
-      "imagePath": "/assets/images/1726199695977.jpg"
+      "imagePath": "/assets/images/1726199695977.jpg",
+      "isOrdinary": false
     },
     {
       "id": 63,
-      "imagePath": "/assets/images/1726199696018.jpg"
+      "imagePath": "/assets/images/1726199696018.jpg",
+      "isOrdinary": false
     },
     {
       "id": 64,
-      "imagePath": "/assets/images/1726199696056.jpg"
+      "imagePath": "/assets/images/1726199696056.jpg",
+      "isOrdinary": true
     },
     {
       "id": 65,
-      "imagePath": "/assets/images/1726199696100.jpg"
+      "imagePath": "/assets/images/1726199696100.jpg",
+      "isOrdinary": false
     },
     {
       "id": 66,
-      "imagePath": "/assets/images/1726199696146.jpg"
+      "imagePath": "/assets/images/1726199696146.jpg",
+      "isOrdinary": true
     },
     {
       "id": 67,
-      "imagePath": "/assets/images/1726199696181.jpg"
+      "imagePath": "/assets/images/1726199696181.jpg",
+      "isOrdinary": false
     },
     {
       "id": 68,
-      "imagePath": "/assets/images/1726199696228.jpg"
+      "imagePath": "/assets/images/1726199696228.jpg",
+      "isOrdinary": false
     },
     {
       "id": 69,
-      "imagePath": "/assets/images/1726199696269.jpg"
+      "imagePath": "/assets/images/1726199696269.jpg",
+      "isOrdinary": false
     },
     {
       "id": 70,
-      "imagePath": "/assets/images/1726199696310.jpg"
+      "imagePath": "/assets/images/1726199696310.jpg",
+      "isOrdinary": false
     },
     {
       "id": 71,
-      "imagePath": "/assets/images/1726199696351.jpg"
+      "imagePath": "/assets/images/1726199696351.jpg",
+      "isOrdinary": false
     },
     {
       "id": 72,
-      "imagePath": "/assets/images/1726199696388.jpg"
+      "imagePath": "/assets/images/1726199696388.jpg",
+      "isOrdinary": false
     },
     {
       "id": 73,
-      "imagePath": "/assets/images/1726199696435.jpg"
+      "imagePath": "/assets/images/1726199696435.jpg",
+      "isOrdinary": false
     },
     {
       "id": 74,
-      "imagePath": "/assets/images/1726199696479.jpg"
+      "imagePath": "/assets/images/1726199696479.jpg",
+      "isOrdinary": false
     },
     {
       "id": 75,
-      "imagePath": "/assets/images/1726199696517.jpg"
+      "imagePath": "/assets/images/1726199696517.jpg",
+      "isOrdinary": false
     },
     {
       "id": 76,
-      "imagePath": "/assets/images/1726199696553.jpg"
+      "imagePath": "/assets/images/1726199696553.jpg",
+      "isOrdinary": false
     },
     {
       "id": 77,
-      "imagePath": "/assets/images/1726199696594.jpg"
+      "imagePath": "/assets/images/1726199696594.jpg",
+      "isOrdinary": false
     },
     {
       "id": 78,
-      "imagePath": "/assets/images/1726199696631.jpg"
+      "imagePath": "/assets/images/1726199696631.jpg",
+      "isOrdinary": false
     },
     {
       "id": 79,
-      "imagePath": "/assets/images/1726199696667.jpg"
+      "imagePath": "/assets/images/1726199696667.jpg",
+      "isOrdinary": false
     },
     {
       "id": 80,
-      "imagePath": "/assets/images/1726199696701.jpg"
+      "imagePath": "/assets/images/1726199696701.jpg",
+      "isOrdinary": false
     },
     {
       "id": 81,
-      "imagePath": "/assets/images/1726199696737.jpg"
+      "imagePath": "/assets/images/1726199696737.jpg",
+      "isOrdinary": false
     },
     {
       "id": 82,
-      "imagePath": "/assets/images/1726199696773.jpg"
+      "imagePath": "/assets/images/1726199696773.jpg",
+      "isOrdinary": false
     },
     {
       "id": 83,
-      "imagePath": "/assets/images/1726199696809.jpg"
+      "imagePath": "/assets/images/1726199696809.jpg",
+      "isOrdinary": false
     },
     {
       "id": 84,
-      "imagePath": "/assets/images/1726199696844.jpg"
+      "imagePath": "/assets/images/1726199696844.jpg",
+      "isOrdinary": false
     },
     {
       "id": 85,
-      "imagePath": "/assets/images/1726199696878.jpg"
+      "imagePath": "/assets/images/1726199696878.jpg",
+      "isOrdinary": false
     },
     {
       "id": 86,
-      "imagePath": "/assets/images/1726199696914.jpg"
+      "imagePath": "/assets/images/1726199696914.jpg",
+      "isOrdinary": false
     },
     {
       "id": 87,
-      "imagePath": "/assets/images/1726199696953.jpg"
+      "imagePath": "/assets/images/1726199696953.jpg",
+      "isOrdinary": false
     },
     {
       "id": 88,
-      "imagePath": "/assets/images/1726199696990.jpg"
+      "imagePath": "/assets/images/1726199696990.jpg",
+      "isOrdinary": false
     },
     {
       "id": 89,
-      "imagePath": "/assets/images/1726199697027.jpg"
+      "imagePath": "/assets/images/1726199697027.jpg",
+      "isOrdinary": false
     },
     {
       "id": 90,
-      "imagePath": "/assets/images/1726199697062.jpg"
+      "imagePath": "/assets/images/1726199697062.jpg",
+      "isOrdinary": false
     },
     {
       "id": 91,
-      "imagePath": "/assets/images/1726199697099.jpg"
+      "imagePath": "/assets/images/1726199697099.jpg",
+      "isOrdinary": false
     },
     {
       "id": 92,
-      "imagePath": "/assets/images/1726199697137.jpg"
+      "imagePath": "/assets/images/1726199697137.jpg",
+      "isOrdinary": false
     },
     {
       "id": 93,
-      "imagePath": "/assets/images/1726199697173.jpg"
+      "imagePath": "/assets/images/1726199697173.jpg",
+      "isOrdinary": false
     },
     {
       "id": 94,
-      "imagePath": "/assets/images/1726199697211.jpg"
+      "imagePath": "/assets/images/1726199697211.jpg",
+      "isOrdinary": false
     },
     {
       "id": 95,
-      "imagePath": "/assets/images/1726199697249.jpg"
+      "imagePath": "/assets/images/1726199697249.jpg",
+      "isOrdinary": false
     },
     {
       "id": 96,
-      "imagePath": "/assets/images/1726199697288.jpg"
+      "imagePath": "/assets/images/1726199697288.jpg",
+      "isOrdinary": false
     },
     {
       "id": 97,
-      "imagePath": "/assets/images/1726199697327.jpg"
+      "imagePath": "/assets/images/1726199697327.jpg",
+      "isOrdinary": false
     },
     {
       "id": 98,
-      "imagePath": "/assets/images/1726199697369.jpg"
+      "imagePath": "/assets/images/1726199697369.jpg",
+      "isOrdinary": false
     },
     {
       "id": 99,
-      "imagePath": "/assets/images/1726199697410.jpg"
+      "imagePath": "/assets/images/1726199697410.jpg",
+      "isOrdinary": false
     },
     {
       "id": 100,
-      "imagePath": "/assets/images/1726199697451.jpg"
+      "imagePath": "/assets/images/1726199697451.jpg",
+      "isOrdinary": false
     },
     {
       "id": 101,
-      "imagePath": "/assets/images/1726199697487.jpg"
+      "imagePath": "/assets/images/1726199697487.jpg",
+      "isOrdinary": false
     },
     {
       "id": 102,
-      "imagePath": "/assets/images/1726199697528.jpg"
+      "imagePath": "/assets/images/1726199697528.jpg",
+      "isOrdinary": false
     },
     {
       "id": 103,
-      "imagePath": "/assets/images/1726546785937.jpg"
+      "imagePath": "/assets/images/1726546785937.jpg",
+      "isOrdinary": false
     },
     {
       "id": 104,
-      "imagePath": "/assets/images/1726546785987.jpg"
+      "imagePath": "/assets/images/1726546785987.jpg",
+      "isOrdinary": false
     },
     {
       "id": 105,
-      "imagePath": "/assets/images/1726546786028.jpg"
+      "imagePath": "/assets/images/1726546786028.jpg",
+      "isOrdinary": false
     },
     {
       "id": 106,
-      "imagePath": "/assets/images/1726546786070.jpg"
+      "imagePath": "/assets/images/1726546786070.jpg",
+      "isOrdinary": false
     },
     {
       "id": 107,
-      "imagePath": "/assets/images/1726546786118.jpg"
+      "imagePath": "/assets/images/1726546786118.jpg",
+      "isOrdinary": false
     },
     {
       "id": 108,
-      "imagePath": "/assets/images/1726546786157.jpg"
+      "imagePath": "/assets/images/1726546786157.jpg",
+      "isOrdinary": false
     },
     {
       "id": 109,
-      "imagePath": "/assets/images/1726546786190.jpg"
+      "imagePath": "/assets/images/1726546786190.jpg",
+      "isOrdinary": false
     },
     {
       "id": 110,
-      "imagePath": "/assets/images/1726546786226.jpg"
+      "imagePath": "/assets/images/1726546786226.jpg",
+      "isOrdinary": false
     },
     {
       "id": 111,
-      "imagePath": "/assets/images/1726546786264.jpg"
+      "imagePath": "/assets/images/1726546786264.jpg",
+      "isOrdinary": false
     },
     {
       "id": 112,
-      "imagePath": "/assets/images/1726546786306.jpg"
+      "imagePath": "/assets/images/1726546786306.jpg",
+      "isOrdinary": false
     },
     {
       "id": 113,
-      "imagePath": "/assets/images/1726546786341.jpg"
+      "imagePath": "/assets/images/1726546786341.jpg",
+      "isOrdinary": false
     },
     {
       "id": 114,
-      "imagePath": "/assets/images/1726546786381.jpg"
+      "imagePath": "/assets/images/1726546786381.jpg",
+      "isOrdinary": false
     },
     {
       "id": 115,
-      "imagePath": "/assets/images/1726546786430.jpg"
+      "imagePath": "/assets/images/1726546786430.jpg",
+      "isOrdinary": false
     },
     {
       "id": 116,
-      "imagePath": "/assets/images/1726546786472.jpg"
+      "imagePath": "/assets/images/1726546786472.jpg",
+      "isOrdinary": false
     },
     {
       "id": 117,
-      "imagePath": "/assets/images/1726546786507.jpg"
+      "imagePath": "/assets/images/1726546786507.jpg",
+      "isOrdinary": false
     },
     {
       "id": 118,
-      "imagePath": "/assets/images/1726546786547.jpg"
+      "imagePath": "/assets/images/1726546786547.jpg",
+      "isOrdinary": false
     },
     {
       "id": 119,
-      "imagePath": "/assets/images/1726546786591.jpg"
+      "imagePath": "/assets/images/1726546786591.jpg",
+      "isOrdinary": false
     },
     {
       "id": 120,
-      "imagePath": "/assets/images/1726546786633.jpg"
+      "imagePath": "/assets/images/1726546786633.jpg",
+      "isOrdinary": false
     },
     {
       "id": 121,
-      "imagePath": "/assets/images/1726546786672.jpg"
+      "imagePath": "/assets/images/1726546786672.jpg",
+      "isOrdinary": false
     },
     {
       "id": 122,
-      "imagePath": "/assets/images/1726546786722.jpg"
+      "imagePath": "/assets/images/1726546786722.jpg",
+      "isOrdinary": false
     },
     {
       "id": 123,
-      "imagePath": "/assets/images/1726546786757.jpg"
+      "imagePath": "/assets/images/1726546786757.jpg",
+      "isOrdinary": false
     },
     {
       "id": 124,
-      "imagePath": "/assets/images/1726546786793.jpg"
+      "imagePath": "/assets/images/1726546786793.jpg",
+      "isOrdinary": false
     },
     {
       "id": 125,
-      "imagePath": "/assets/images/1726546786833.jpg"
+      "imagePath": "/assets/images/1726546786833.jpg",
+      "isOrdinary": false
     },
     {
       "id": 126,
-      "imagePath": "/assets/images/1726546786870.jpg"
+      "imagePath": "/assets/images/1726546786870.jpg",
+      "isOrdinary": false
     },
     {
       "id": 127,
-      "imagePath": "/assets/images/1726546786909.jpg"
+      "imagePath": "/assets/images/1726546786909.jpg",
+      "isOrdinary": false
     },
     {
       "id": 128,
-      "imagePath": "/assets/images/1726546786947.jpg"
+      "imagePath": "/assets/images/1726546786947.jpg",
+      "isOrdinary": false
     },
     {
       "id": 129,
-      "imagePath": "/assets/images/1726546786983.jpg"
+      "imagePath": "/assets/images/1726546786983.jpg",
+      "isOrdinary": false
     },
     {
       "id": 130,
-      "imagePath": "/assets/images/1726546787026.jpg"
+      "imagePath": "/assets/images/1726546787026.jpg",
+      "isOrdinary": false
     },
     {
       "id": 131,
-      "imagePath": "/assets/images/1726546787061.jpg"
+      "imagePath": "/assets/images/1726546787061.jpg",
+      "isOrdinary": false
     },
     {
       "id": 132,
-      "imagePath": "/assets/images/1726546787096.jpg"
+      "imagePath": "/assets/images/1726546787096.jpg",
+      "isOrdinary": false
     },
     {
       "id": 133,
-      "imagePath": "/assets/images/1726546787137.jpg"
+      "imagePath": "/assets/images/1726546787137.jpg",
+      "isOrdinary": false
     },
     {
       "id": 134,
-      "imagePath": "/assets/images/1726546787177.jpg"
+      "imagePath": "/assets/images/1726546787177.jpg",
+      "isOrdinary": false
     },
     {
       "id": 135,
-      "imagePath": "/assets/images/1726546787210.jpg"
+      "imagePath": "/assets/images/1726546787210.jpg",
+      "isOrdinary": false
     },
     {
       "id": 136,
-      "imagePath": "/assets/images/1726546787255.jpg"
+      "imagePath": "/assets/images/1726546787255.jpg",
+      "isOrdinary": false
     },
     {
       "id": 137,
-      "imagePath": "/assets/images/1726546787294.jpg"
+      "imagePath": "/assets/images/1726546787294.jpg",
+      "isOrdinary": false
     },
     {
       "id": 138,
-      "imagePath": "/assets/images/1726546787336.jpg"
+      "imagePath": "/assets/images/1726546787336.jpg",
+      "isOrdinary": false
     },
     {
       "id": 139,
-      "imagePath": "/assets/images/1726546787379.jpg"
+      "imagePath": "/assets/images/1726546787379.jpg",
+      "isOrdinary": false
     },
     {
       "id": 140,
-      "imagePath": "/assets/images/1726546787411.jpg"
+      "imagePath": "/assets/images/1726546787411.jpg",
+      "isOrdinary": false
     },
     {
       "id": 141,
-      "imagePath": "/assets/images/1726546787440.jpg"
+      "imagePath": "/assets/images/1726546787440.jpg",
+      "isOrdinary": false
     },
     {
       "id": 142,
-      "imagePath": "/assets/images/1726546787477.jpg"
+      "imagePath": "/assets/images/1726546787477.jpg",
+      "isOrdinary": false
     },
     {
       "id": 143,
-      "imagePath": "/assets/images/1726546787515.jpg"
+      "imagePath": "/assets/images/1726546787515.jpg",
+      "isOrdinary": false
     },
     {
       "id": 144,
-      "imagePath": "/assets/images/1726546787553.jpg"
+      "imagePath": "/assets/images/1726546787553.jpg",
+      "isOrdinary": false
     },
     {
       "id": 145,
-      "imagePath": "/assets/images/1726546787595.jpg"
+      "imagePath": "/assets/images/1726546787595.jpg",
+      "isOrdinary": false
     },
     {
       "id": 146,
-      "imagePath": "/assets/images/1726546787631.jpg"
+      "imagePath": "/assets/images/1726546787631.jpg",
+      "isOrdinary": false
     },
     {
       "id": 147,
-      "imagePath": "/assets/images/1726546787669.jpg"
+      "imagePath": "/assets/images/1726546787669.jpg",
+      "isOrdinary": false
     },
     {
       "id": 148,
-      "imagePath": "/assets/images/1726546787710.jpg"
+      "imagePath": "/assets/images/1726546787710.jpg",
+      "isOrdinary": false
     },
     {
       "id": 149,
-      "imagePath": "/assets/images/1726546787752.jpg"
+      "imagePath": "/assets/images/1726546787752.jpg",
+      "isOrdinary": false
     },
     {
       "id": 150,
-      "imagePath": "/assets/images/1726546787791.jpg"
+      "imagePath": "/assets/images/1726546787791.jpg",
+      "isOrdinary": false
     },
     {
       "id": 151,
-      "imagePath": "/assets/images/1726546787826.jpg"
+      "imagePath": "/assets/images/1726546787826.jpg",
+      "isOrdinary": false
     },
     {
       "id": 152,
-      "imagePath": "/assets/images/1726546787866.jpg"
+      "imagePath": "/assets/images/1726546787866.jpg",
+      "isOrdinary": false
     },
     {
       "id": 153,
-      "imagePath": "/assets/images/1726546787912.jpg"
+      "imagePath": "/assets/images/1726546787912.jpg",
+      "isOrdinary": false
     },
     {
       "id": 154,
-      "imagePath": "/assets/images/1726546787955.jpg"
+      "imagePath": "/assets/images/1726546787955.jpg",
+      "isOrdinary": false
     },
     {
       "id": 155,
-      "imagePath": "/assets/images/1726546787996.jpg"
+      "imagePath": "/assets/images/1726546787996.jpg",
+      "isOrdinary": false
     },
     {
       "id": 156,
-      "imagePath": "/assets/images/1726546788036.jpg"
+      "imagePath": "/assets/images/1726546788036.jpg",
+      "isOrdinary": false
     },
     {
       "id": 157,
-      "imagePath": "/assets/images/1726546788077.jpg"
+      "imagePath": "/assets/images/1726546788077.jpg",
+      "isOrdinary": false
     },
     {
       "id": 158,
-      "imagePath": "/assets/images/1726546788124.jpg"
+      "imagePath": "/assets/images/1726546788124.jpg",
+      "isOrdinary": false
     },
     {
       "id": 159,
-      "imagePath": "/assets/images/1726546788159.jpg"
+      "imagePath": "/assets/images/1726546788159.jpg",
+      "isOrdinary": false
     },
     {
       "id": 160,
-      "imagePath": "/assets/images/1726546788205.jpg"
+      "imagePath": "/assets/images/1726546788205.jpg",
+      "isOrdinary": false
     },
     {
       "id": 161,
-      "imagePath": "/assets/images/1726546788246.jpg"
+      "imagePath": "/assets/images/1726546788246.jpg",
+      "isOrdinary": false
     },
     {
       "id": 162,
-      "imagePath": "/assets/images/1726546788285.jpg"
+      "imagePath": "/assets/images/1726546788285.jpg",
+      "isOrdinary": false
     },
     {
       "id": 163,
-      "imagePath": "/assets/images/1726546788323.jpg"
+      "imagePath": "/assets/images/1726546788323.jpg",
+      "isOrdinary": false
     },
     {
       "id": 164,
-      "imagePath": "/assets/images/1726546788363.jpg"
+      "imagePath": "/assets/images/1726546788363.jpg",
+      "isOrdinary": false
     },
     {
       "id": 165,
-      "imagePath": "/assets/images/1726546788405.jpg"
+      "imagePath": "/assets/images/1726546788405.jpg",
+      "isOrdinary": false
     },
     {
       "id": 166,
-      "imagePath": "/assets/images/1726546788442.jpg"
+      "imagePath": "/assets/images/1726546788442.jpg",
+      "isOrdinary": false
     },
     {
       "id": 167,
-      "imagePath": "/assets/images/1726546788476.jpg"
+      "imagePath": "/assets/images/1726546788476.jpg",
+      "isOrdinary": false
     },
     {
       "id": 168,
-      "imagePath": "/assets/images/1726546788519.jpg"
+      "imagePath": "/assets/images/1726546788519.jpg",
+      "isOrdinary": false
     }
   ]
 }

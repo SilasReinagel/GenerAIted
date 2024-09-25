@@ -27,7 +27,7 @@ function ArtBrowserPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredCards.map((card) => (
             <div key={card.id} className="bg-gray-800 p-4 rounded-lg">
-              <ArtCard {...card} />
+              <ArtCard {...card} isBrowsing={true}/>
             </div>
           ))}
         </div>
